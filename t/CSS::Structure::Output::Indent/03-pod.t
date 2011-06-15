@@ -8,4 +8,4 @@ use Test::More 'tests' => 1;
 use Test::Pod;
 
 # Test.
-pod_file_ok(File::Object->new->up(2)->file('Structure', 'Output', 'Indent.pm')->s);
+pod_file_ok(File::Object->new->up(2)->file('Indent.pm')->s);
