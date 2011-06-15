@@ -256,19 +256,19 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 =head1 ERRORS
 
  Mine:
-   None
+         None
 
  From CSS::Structure::Core:
-   Auto-flush can't use without output handler.
-   Bad comment delimeters.
-   Bad data.
-   Bad number of arguments.
-     ('CSS::Structure' structure array),
-   Bad type of data.
-   Cannot write to output handler.
-   No opened selector.
-   Output handler is bad file handler.
-   Unknown parameter '%s'.
+         Auto-flush can't use without output handler.
+         Bad comment delimeters.
+         Bad data.
+         Bad number of arguments.
+                 ('CSS::Structure' structure array),
+         Bad type of data.
+         Cannot write to output handler.
+         No opened selector.
+         Output handler is bad file handler.
+         Unknown parameter '%s'.
 
 =head1 DEPENDENCIES
 
