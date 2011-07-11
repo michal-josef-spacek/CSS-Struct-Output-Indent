@@ -19,6 +19,7 @@ WriteMakefile(
 	'CONFIGURE_REQUIRES' => {
 		'ExtUtils::MakeMaker' => 0,
 	},
+	'LICENSE' => 'bsd',
 	'NAME' => 'CSS::Structure::Output::Indent',
 	'PREREQ_PM' => {
 		'CSS::Structure::Output::Core' => 0.01,
