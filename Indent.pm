@@ -282,6 +282,10 @@ L<CSS::Structure>,
 L<CSS::Structure::Output::Core>.
 L<CSS::Structure::Output::Raw>.
 
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/CSS-Structure-Output-Indent>
+
 =head1 AUTHOR
 
 Michal Špaček L<mailto:skim@cpan.org>
