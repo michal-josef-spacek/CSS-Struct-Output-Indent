@@ -245,7 +245,7 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 
 =item C<put(@data)>
 
- Put CSS structure in format specified in L<CSS::Structure(3pm)>.
+ Put CSS structure in format specified in L<CSS::Structure>.
 
 =item C<reset()>
 
@@ -272,15 +272,15 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 
 =head1 DEPENDENCIES
 
-L<CSS::Structure::Output::Core(3pm)>,
-L<Indent(3pm)>,
-L<Readonly(3pm)>.
+L<CSS::Structure::Output::Core>,
+L<Indent>,
+L<Readonly>.
 
 =head1 SEE ALSO
 
-L<CSS::Structure(3pm)>,
-L<CSS::Structure::Output::Core(3pm)>.
-L<CSS::Structure::Output::Raw(3pm)>.
+L<CSS::Structure>,
+L<CSS::Structure::Output::Core>.
+L<CSS::Structure::Output::Raw>.
 
 =head1 AUTHOR
 
