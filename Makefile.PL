@@ -3,31 +3,28 @@ use strict;
 use warnings;
 
 # Modules.
-use ExtUtils::MakeMaker;
+use inc::Module::Install;
 
 # Definition.
-WriteMakefile(
-	'AUTHOR' => 'Michal Špaček <skim@cpan.org>',
-	'BUILD_REQUIRES' => {
-		'English' => 0,
-		'File::Object' => 0,
-		'Test::More' => 0,
-		'Test::Output' => 0,
-		'Test::Pod' => 0,
-		'Test::Pod::Coverage' => 0,
-	},
-	'CONFIGURE_REQUIRES' => {
-		'ExtUtils::MakeMaker' => 0,
-	},
-	'LICENSE' => 'bsd',
-	'NAME' => 'CSS::Structure::Output::Indent',
-	'PREREQ_PM' => {
-		'CSS::Structure::Output::Core' => 0.01,
-		'Indent' => 0,
-		'Readonly' => 0,
-	},
-	'VERSION' => 0.01,
-	'test' => {
-		'TESTS' => 't/CSS::Structure::Output::Indent/*.t',
-	},
-);
+abstract 'Indent printing \'CSS::Structure\' structure to CSS code.';
+author 'Michal Špaček <skim@cpan.org>';
+license 'bsd';
+name 'CSS-Structure-Output-Indent';
+requires 'CSS::Structure::Output::Core' => 0.01;
+requires 'Indent' => 0.01;
+requires 'Readonly' => 0;
+resources 'repository' => {
+	'url' => 'git://github.com/tupinek/CSS-Structure-Output-Indent',
+	'web' => 'https://github.com/tupinek/CSS-Structure-Output-Indent',
+	'type' => 'git',
+};
+test_requires 'English' => 0;
+test_requires 'File::Object' => 0.01;
+test_requires 'Test::More' => 0;
+test_requires 'Test::Pod' => 0;
+test_requires 'Test::Pod::Coverage' => 0;
+tests_recursive;
+version '0.01';
+
+# Run.
+WriteAll();
