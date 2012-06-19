@@ -13,11 +13,12 @@ name 'CSS-Structure-Output-Indent';
 requires 'CSS::Structure::Output::Core' => 0.01;
 requires 'Indent' => 0.01;
 requires 'Readonly' => 0;
-resources 'repository' => {
-	'url' => 'git://github.com/tupinek/CSS-Structure-Output-Indent',
-	'web' => 'https://github.com/tupinek/CSS-Structure-Output-Indent',
-	'type' => 'git',
-};
+resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
+	'?Name=CSS-Structure-Output-Indent';
+resources 'homepage' => 'https://github.com/tupinek/'.
+	'CSS-Structure-Output-Indent';
+resources 'repository' => 'git://github.com/tupinek/'.
+	'CSS-Structure-Output-Indent';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.01;
 test_requires 'Test::More' => 0;
