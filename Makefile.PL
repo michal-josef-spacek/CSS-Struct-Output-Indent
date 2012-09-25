@@ -10,7 +10,7 @@ abstract 'Indent printing \'CSS::Structure\' structure to CSS code.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'CSS-Structure-Output-Indent';
-requires 'CSS::Structure::Output::Core' => 0.01;
+requires 'CSS::Structure::Output' => 0.01;
 requires 'Indent' => 0.01;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.

@@ -1,7 +1,7 @@
 package CSS::Structure::Output::Indent;
 
 # Pragmas.
-use base qw(CSS::Structure::Output::Core);
+use base qw(CSS::Structure::Output);
 use strict;
 use warnings;
 
@@ -272,14 +272,14 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 
 =head1 DEPENDENCIES
 
-L<CSS::Structure::Output::Core>,
+L<CSS::Structure::Output>,
 L<Indent>,
 L<Readonly>.
 
 =head1 SEE ALSO
 
 L<CSS::Structure>,
-L<CSS::Structure::Output::Core>.
+L<CSS::Structure::Output>.
 L<CSS::Structure::Output::Raw>.
 
 =head1 REPOSITORY

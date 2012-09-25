@@ -24,7 +24,7 @@ no_index:
     - inc
     - t
 requires:
-  CSS::Structure::Output::Core: 0.01
+  CSS::Structure::Output: 0.01
   Indent: 0.01
   Readonly: 0
 resources:
