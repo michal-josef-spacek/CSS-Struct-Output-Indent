@@ -20,7 +20,7 @@ resources 'homepage' => 'https://github.com/tupinek/'.
 resources 'repository' => 'git://github.com/tupinek/'.
 	'CSS-Structure-Output-Indent';
 test_requires 'English' => 0;
-test_requires 'File::Object' => 0.01;
+test_requires 'File::Object' => 0.05;
 test_requires 'Test::More' => 0;
 test_requires 'Test::Pod' => 0;
 test_requires 'Test::Pod::Coverage' => 0;
