@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Indent printing \'CSS::Structure\' structure to CSS code.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'CSS-Structure-Output-Indent';
 requires 'CSS::Structure::Output' => 0.01;
