@@ -32,4 +32,4 @@ resources:
   homepage: https://github.com/tupinek/CSS-Structure-Output-Indent
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/CSS-Structure-Output-Indent
-version: 0.01
+version: '0.01'
