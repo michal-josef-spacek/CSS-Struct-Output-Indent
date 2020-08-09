@@ -14,9 +14,9 @@ requires 'Indent' => 0.01;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=CSS-Struct-Output-Indent';
-resources 'homepage' => 'https://github.com/tupinek/'.
+resources 'homepage' => 'https://github.com/michal-josef-spacek/'.
 	'CSS-Struct-Output-Indent';
-resources 'repository' => 'git://github.com/tupinek/'.
+resources 'repository' => 'git://github.com/michal-josef-spacek/'.
 	'CSS-Struct-Output-Indent';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.05;

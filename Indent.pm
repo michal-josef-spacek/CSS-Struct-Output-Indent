@@ -281,7 +281,7 @@ L<CSS::Struct::Output::Raw>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/CSS-Struct-Output-Indent>
+L<https://github.com/michal-josef-spacek/CSS-Struct-Output-Indent>
 
 =head1 AUTHOR
 
