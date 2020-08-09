@@ -285,7 +285,7 @@ L<https://github.com/michal-josef-spacek/CSS-Struct-Output-Indent>
 
 =head1 AUTHOR
 
-Michal Špaček L<mailto:skim@cpan.org>
+Michal Josef Špaček L<mailto:skim@cpan.org>
 
 L<http://skim.cz>
 
