@@ -5,7 +5,9 @@ TODO
    Je tam pole ('selector2', ';', ' ', 'selector2', ';', ' ').
    Muze mezi tim byl komentar. Muselo by se indentovat jenom to, co se vykresli
    skutecne na jeden radek.
-2.
+2. Pridat priklad do dokumentace.
+3. Prepsat na =head2 v dokumentaci
+4.
 
 Applied
 ========
