@@ -1,8 +1,6 @@
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use CSS::Struct::Output::Indent;
 use Test::More 'tests' => 3;
 

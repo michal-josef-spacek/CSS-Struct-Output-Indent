@@ -1,11 +1,9 @@
 package CSS::Struct::Output::Indent;
 
-# Pragmas.
 use base qw(CSS::Struct::Output);
 use strict;
 use warnings;
 
-# Modules.
 use Indent;
 use Readonly;
 
@@ -13,7 +11,6 @@ use Readonly;
 Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $SPACE => q{ };
 
-# Version.
 our $VERSION = 0.01;
 
 # Resets internal variables.
