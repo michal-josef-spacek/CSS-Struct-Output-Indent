@@ -8,8 +8,8 @@ use Test::More 'tests' => 2;
 BEGIN {
 
 	# Test.
-	use_ok('CSS::Structure::Output::Indent');
+	use_ok('CSS::Struct::Output::Indent');
 }
 
 # Test.
-require_ok('CSS::Structure::Output::Indent');
+require_ok('CSS::Struct::Output::Indent');

@@ -1,5 +1,5 @@
 ---
-abstract: "Indent printing 'CSS::Structure' structure to CSS code."
+abstract: "Indent printing 'CSS::Struct' structure to CSS code."
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
@@ -18,18 +18,18 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: CSS-Structure-Output-Indent
+name: CSS-Struct-Output-Indent
 no_index:
   directory:
     - inc
     - t
 requires:
-  CSS::Structure::Output: 0.01
+  CSS::Struct::Output: 0.01
   Indent: 0.01
   Readonly: 0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=CSS-Structure-Output-Indent
-  homepage: https://github.com/tupinek/CSS-Structure-Output-Indent
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=CSS-Struct-Output-Indent
+  homepage: https://github.com/tupinek/CSS-Struct-Output-Indent
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/CSS-Structure-Output-Indent
+  repository: git://github.com/tupinek/CSS-Struct-Output-Indent
 version: '0.01'

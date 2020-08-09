@@ -3,11 +3,11 @@ use strict;
 use warnings;
 
 # Modules.
-use CSS::Structure::Output::Indent;
+use CSS::Struct::Output::Indent;
 use Test::More 'tests' => 2;
 
 # Test.
-my $obj = CSS::Structure::Output::Indent->new(
+my $obj = CSS::Struct::Output::Indent->new(
 	'skip_comments' => 1,
 );
 $obj->put(
@@ -17,7 +17,7 @@ my $ret = $obj->flush;
 is($ret, '');
 
 # Test.
-$obj = CSS::Structure::Output::Indent->new(
+$obj = CSS::Struct::Output::Indent->new(
 	'skip_comments' => 0,
 );
 $obj->put(

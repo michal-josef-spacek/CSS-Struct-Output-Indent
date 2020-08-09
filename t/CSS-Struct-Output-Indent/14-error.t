@@ -3,12 +3,12 @@ use strict;
 use warnings;
 
 # Modules.
-use CSS::Structure::Output::Indent;
+use CSS::Struct::Output::Indent;
 use English qw(-no_match_vars);
 use Test::More 'tests' => 4;
 
 # Test.
-my $obj = CSS::Structure::Output::Indent->new;
+my $obj = CSS::Struct::Output::Indent->new;
 eval {
 	$obj->put('String');
 };
@@ -32,7 +32,7 @@ eval {
 is($EVAL_ERROR, "Bad number of arguments.\n");
 
 # Test.
-$obj = CSS::Structure::Output::Indent->new(
+$obj = CSS::Struct::Output::Indent->new(
 	'skip_bad_types' => 0,
 );
 eval {

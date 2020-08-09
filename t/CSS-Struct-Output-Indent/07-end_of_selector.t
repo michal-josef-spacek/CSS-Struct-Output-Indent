@@ -3,12 +3,12 @@ use strict;
 use warnings;
 
 # Modules.
-use CSS::Structure::Output::Indent;
+use CSS::Struct::Output::Indent;
 use English qw(-no_match_vars);
 use Test::More 'tests' => 2;
 
 # Test.
-my $obj = CSS::Structure::Output::Indent->new;
+my $obj = CSS::Struct::Output::Indent->new;
 eval {
 	$obj->put(
 		['e'],

@@ -3,12 +3,12 @@ use strict;
 use warnings;
 
 # Modules.
-use CSS::Structure::Output::Indent;
+use CSS::Struct::Output::Indent;
 use English qw(-no_match_vars);
 use Test::More 'tests' => 5;
 
 # Test.
-my $obj = CSS::Structure::Output::Indent->new;
+my $obj = CSS::Struct::Output::Indent->new;
 $obj->put(
 	['s', 'selector'],
 	['d', 'attr', 'value'],
@@ -86,7 +86,7 @@ SKIP: {
 		skip 'File::Temp not installed', 1;
 	};
 	my $temp_fh = File::Temp::tempfile();
-	$obj = CSS::Structure::Output::Indent->new(
+	$obj = CSS::Struct::Output::Indent->new(
 		'output_handler' => $temp_fh,
 	);
 	$obj->put(

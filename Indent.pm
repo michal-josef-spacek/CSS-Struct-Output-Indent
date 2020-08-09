@@ -1,7 +1,7 @@
-package CSS::Structure::Output::Indent;
+package CSS::Struct::Output::Indent;
 
 # Pragmas.
-use base qw(CSS::Structure::Output);
+use base qw(CSS::Struct::Output);
 use strict;
 use warnings;
 
@@ -180,12 +180,12 @@ __END__
 
 =head1 NAME
 
-CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to CSS code.
+CSS::Struct::Output::Indent - Indent printing 'CSS::Struct' structure to CSS code.
 
 =head1 SYNOPSIS
 
- use CSS::Structure::Output::Indent;
- my $css = CSS::Structure::Output::Indent->new(%parameters);
+ use CSS::Struct::Output::Indent;
+ my $css = CSS::Struct::Output::Indent->new(%parameters);
  $css->put(@data);
  $css->flush;
  $css->reset;
@@ -226,7 +226,7 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 
 =item * C<skip_bad_types>
 
- Flag, that means bad 'CSS::Structure' types skipping.
+ Flag, that means bad 'CSS::Struct' types skipping.
  Default value is 0.
 
 =item * C<skip_comments>
@@ -245,7 +245,7 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 
 =item C<put(@data)>
 
- Put CSS structure in format specified in L<CSS::Structure>.
+ Put CSS structure in format specified in L<CSS::Struct>.
 
 =item C<reset()>
 
@@ -258,12 +258,12 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
  Mine:
          None
 
- From CSS::Structure::Core:
+ From CSS::Struct::Core:
          Auto-flush can't use without output handler.
          Bad comment delimeters.
          Bad data.
          Bad number of arguments.
-                 ('CSS::Structure' structure array),
+                 ('CSS::Struct' structure array),
          Bad type of data.
          Cannot write to output handler.
          No opened selector.
@@ -272,19 +272,19 @@ CSS::Structure::Output::Indent - Indent printing 'CSS::Structure' structure to C
 
 =head1 DEPENDENCIES
 
-L<CSS::Structure::Output>,
+L<CSS::Struct::Output>,
 L<Indent>,
 L<Readonly>.
 
 =head1 SEE ALSO
 
-L<CSS::Structure>,
-L<CSS::Structure::Output>.
-L<CSS::Structure::Output::Raw>.
+L<CSS::Struct>,
+L<CSS::Struct::Output>.
+L<CSS::Struct::Output::Raw>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/CSS-Structure-Output-Indent>
+L<https://github.com/tupinek/CSS-Struct-Output-Indent>
 
 =head1 AUTHOR
 

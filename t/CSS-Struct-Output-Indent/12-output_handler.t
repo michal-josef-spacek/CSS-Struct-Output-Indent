@@ -3,13 +3,13 @@ use strict;
 use warnings;
 
 # Modules.
-use CSS::Structure::Output::Indent;
+use CSS::Struct::Output::Indent;
 use File::Object;
 use Test::More 'tests' => 2;
 use Test::Output;
 
 # Test.
-my $obj = CSS::Structure::Output::Indent->new(
+my $obj = CSS::Struct::Output::Indent->new(
 	'output_handler' => \*STDOUT,
 );
 my $right_ret = <<'END';
@@ -32,7 +32,7 @@ stdout_is(
 );
 
 # Test.
-$obj = CSS::Structure::Output::Indent->new(
+$obj = CSS::Struct::Output::Indent->new(
 	'auto_flush' => 1,
 	'output_handler' => \*STDOUT,
 );

@@ -3,11 +3,11 @@ use strict;
 use warnings;
 
 # Modules.
-use CSS::Structure::Output::Indent;
+use CSS::Struct::Output::Indent;
 use Test::More 'tests' => 3;
 
 # Test.
-my $obj = CSS::Structure::Output::Indent->new;
+my $obj = CSS::Struct::Output::Indent->new;
 $obj->put(
 	['s', 'body'],
 );
