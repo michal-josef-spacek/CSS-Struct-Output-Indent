@@ -3,7 +3,8 @@ use warnings;
 
 use CSS::Struct::Output::Indent;
 use English qw(-no_match_vars);
-use Test::More 'tests' => 4;
+use Test::More 'tests' => 5;
+use Test::NoWarnings;
 
 # Test.
 my $obj = CSS::Struct::Output::Indent->new;
