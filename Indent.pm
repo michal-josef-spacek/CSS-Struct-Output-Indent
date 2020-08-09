@@ -276,9 +276,21 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<CSS::Struct>,
-L<CSS::Struct::Output>.
-L<CSS::Struct::Output::Raw>.
+=over
+
+=item L<CSS::Struct>
+
+Struct oriented CSS manipulation.
+
+=item L<CSS::Struct::Output>
+
+Base class for CSS::Struct::Output::*.
+
+=item L<CSS::Struct::Output::Raw>
+
+Raw printing 'CSS::Struct' structure to CSS code.
+
+=back
 
 =head1 REPOSITORY
 

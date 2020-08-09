@@ -80,7 +80,14 @@ DEPENDENCIES
     CSS::Struct::Output, Indent, Readonly.
 
 SEE ALSO
-    CSS::Struct, CSS::Struct::Output. CSS::Struct::Output::Raw.
+    CSS::Struct
+        Struct oriented CSS manipulation.
+
+    CSS::Struct::Output
+        Base class for CSS::Struct::Output::*.
+
+    CSS::Struct::Output::Raw
+        Raw printing 'CSS::Struct' structure to CSS code.
 
 REPOSITORY
     <https://github.com/michal-josef-spacek/CSS-Struct-Output-Indent>
