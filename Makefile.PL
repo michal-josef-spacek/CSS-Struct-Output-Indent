@@ -9,6 +9,7 @@ abstract 'Indent printing \'CSS::Struct\' structure to CSS code.';
 author 'Michal Josef Spacek <skim@cpan.org>';
 license 'bsd';
 name 'CSS-Struct-Output-Indent';
+readme_from 'Indent.pm';
 requires 'CSS::Struct::Output' => 0.01;
 requires 'Indent' => 0.01;
 requires 'Readonly' => 0;
