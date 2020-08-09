@@ -4,13 +4,12 @@ use warnings;
 use CSS::Struct::Output::Indent;
 use English qw(-no_match_vars);
 use Error::Pure::Utils qw(clean);
-use Test::More 'tests' => 9;
+use Test::More 'tests' => 8;
 use Test::NoWarnings;
 
 # Test.
 my $obj = CSS::Struct::Output::Indent->new;
-ok(defined $obj);
-ok($obj->isa('CSS::Struct::Output::Indent'));
+isa_ok($obj, 'CSS::Struct::Output::Indent');
 
 # Test.
 eval {
