@@ -3,6 +3,7 @@ use warnings;
 
 use CSS::Struct::Output::Indent;
 use English qw(-no_match_vars);
+use Error::Pure::Utils qw(clean);
 use Test::More 'tests' => 9;
 use Test::NoWarnings;
 
@@ -16,6 +17,7 @@ eval {
 	CSS::Struct::Output::Indent->new('');
 };
 is($EVAL_ERROR, "Unknown parameter ''.\n");
+clean();
 
 # Test.
 eval {
@@ -24,6 +26,7 @@ eval {
 	);
 };
 is($EVAL_ERROR, 'Output handler is bad file handler.'."\n");
+clean();
 
 # Test.
 eval {
@@ -32,6 +35,7 @@ eval {
 	);
 };
 is($EVAL_ERROR, "Bad comment delimeters.\n");
+clean();
 
 # Test.
 eval {
@@ -40,6 +44,7 @@ eval {
 	);
 };
 is($EVAL_ERROR, "Bad comment delimeters.\n");
+clean();
 
 # Test.
 eval {
@@ -48,6 +53,7 @@ eval {
 	);
 };
 is($EVAL_ERROR, "Bad comment delimeters.\n");
+clean();
 
 # Test.
 eval {
@@ -56,3 +62,4 @@ eval {
 	);
 };
 is($EVAL_ERROR, 'Auto-flush can\'t use without output handler.'."\n");
+clean();
