@@ -4,6 +4,7 @@ NAME
 
 SYNOPSIS
      use CSS::Struct::Output::Indent;
+
      my $css = CSS::Struct::Output::Indent->new(%parameters);
      $css->put(@data);
      $css->flush;

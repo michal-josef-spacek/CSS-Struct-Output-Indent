@@ -182,6 +182,7 @@ CSS::Struct::Output::Indent - Indent printing 'CSS::Struct' structure to CSS cod
 =head1 SYNOPSIS
 
  use CSS::Struct::Output::Indent;
+
  my $css = CSS::Struct::Output::Indent->new(%parameters);
  $css->put(@data);
  $css->flush;
