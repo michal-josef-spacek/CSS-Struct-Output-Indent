@@ -61,9 +61,6 @@ METHODS
              Resets internal variables.
 
 ERRORS
-     Mine:
-             None
-
      From CSS::Struct::Core:
              Auto-flush can't use without output handler.
              Bad comment delimeters.

@@ -253,9 +253,6 @@ CSS::Struct::Output::Indent - Indent printing 'CSS::Struct' structure to CSS cod
 
 =head1 ERRORS
 
- Mine:
-         None
-
  From CSS::Struct::Core:
          Auto-flush can't use without output handler.
          Bad comment delimeters.
