@@ -11,7 +11,7 @@ use Readonly;
 Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $SPACE => q{ };
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Resets internal variables.
 sub reset {
@@ -307,6 +307,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut
