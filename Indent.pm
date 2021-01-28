@@ -17,7 +17,7 @@ our $VERSION = 0.04;
 sub reset {
 	my $self = shift;
 
-	# Reset internal variables from *::Core.
+	# Reset internal variables from *::Output.
 	$self->SUPER::reset;
 
 	# Comment after selector.
@@ -265,7 +265,7 @@ Returns undef.
 
 =head1 ERRORS
 
- From CSS::Struct::Core:
+ From CSS::Struct::Output:
          Auto-flush can't use without output handler.
          Bad comment delimeters.
          Bad data.
