@@ -30,7 +30,7 @@ requires:
   Indent: 0.01
   Readonly: 0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=CSS-Struct-Output-Indent
+  bugtracker: https://github.com/michal-josef-spacek/issues
   homepage: https://github.com/michal-josef-spacek/CSS-Struct-Output-Indent
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/CSS-Struct-Output-Indent
