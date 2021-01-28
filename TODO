@@ -5,11 +5,13 @@ TODO
    Je tam pole ('selector2', ';', ' ', 'selector2', ';', ' ').
    Muze mezi tim byl komentar. Muselo by se indentovat jenom to, co se vykresli
    skutecne na jeden radek.
-3. Prepsat na =head2 v dokumentaci
 4. Do testu pridat komentare.
 5.
 
 Applied
 ========
 2. Pridat priklad do dokumentace.
+OK [20210128] skim
+
+3. Prepsat na =head2 v dokumentaci
 OK [20210128] skim

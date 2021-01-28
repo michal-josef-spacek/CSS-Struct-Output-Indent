@@ -1,6 +1,7 @@
 0.03
  - Add EXAMPLE section to doc.
  - Fix bugtracker.
+ - Rewrite doc to use =head2 in METHODS section.
  - Update copyright years.
 
 0.02 2020-08-11T15:52:20+02:00
