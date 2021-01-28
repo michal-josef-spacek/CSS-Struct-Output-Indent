@@ -1,4 +1,4 @@
-0.03
+0.03 2021-01-28T11:21:16+01:00
  - Add EXAMPLE section to doc.
  - Fix bugtracker.
  - Rewrite doc to use =head2 in METHODS section.
